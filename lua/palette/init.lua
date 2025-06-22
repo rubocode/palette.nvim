@@ -42,7 +42,9 @@ function M.load()
 	vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, float)
 	vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, float)
 
-	require("lspconfig.ui.windows").default_options.border = "single"
+	-- rubocode (2025/06/22): this requires "neovim/nvim-lspconfig"
+	-- commenting out will support built-in LSP alone
+	-- require("lspconfig.ui.windows").default_options.border = "single"
 
 	-- get merged highlight groups
 	local highlights = require("palette.highlights")
