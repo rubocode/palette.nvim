@@ -7,7 +7,7 @@ return {
 			color3 = "#4e5470",
 			color4 = "#7b7f94",
 			color5 = "#a7a9b7",
-			color6 = "#bdbfc9",
+			color6 = "#edcfd9",
 			color7 = "#d3d4db",
 			color8 = "#e9e9ed",
 		},
